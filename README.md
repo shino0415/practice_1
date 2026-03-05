@@ -34,7 +34,7 @@ practice_1/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 --------------------------------------------
 
 ## 起動方法
@@ -44,20 +44,26 @@ practice_1/
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 ### 2. パッケージのインストール
+```
 pip install -r requirem
+```
 
 ### 3. FastAPIアプリの起動
+```
 uvicorn app.main:app --reload
 API ドキュメント:
 http://127.0.0.1:8000/docs
-
+```
 
 --------------------------------------------
 
 ## テスト実行
+```
 pytest -q
+```
 
 --------------------------------------------
 
